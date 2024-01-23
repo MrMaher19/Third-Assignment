@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="Manrope">
+  <header>
+    <div class="flex justify-evenly my-5">
+      <div class="dropdown">
+        <div tabindex="0" class="flex gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5 my-1 lg:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          <div>
+            <h1 class="font-extrabold text-2xl lg:text-4xl">Hockey’s</h1>
+          </div>
+        </div>
+        <ul tabindex="0" class="lg:hidden menu menu-sm dropdown-content mt-3 z-[1] shadow bg-base-100 rounded-box w-52">
+          <li><a>Home</a></li>
+          <li><a>About</a></li>
+          <li><a>Pages</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal text-base font-normal text-[Dark 02]">
+          <li class="lg:hover:text-[#FF4240]"><a>Home</a></li>
+          <li class="lg:hover:text-[#FF4240]"><a>About</a></li>
+          <li class="lg:hover:text-[#FF4240]"><a>Pages</a></li>
+          <li class="lg:hover:text-[#FF4240]"><a>Blog</a></li>
+          <li class="lg:hover:text-[#FF4240]"><a>Contact</a></li>
+        </ul>
+      </div>
+      <div class="flex gap-2">
+        <img src="Frame (2).png" alt="Search-Icon" class="hidden lg:inline lg:w-7 lg:h-7 lg:my-3">
+        <button class="w-32 h-10 bg-[#FF4240] text-white rounded-lg text-[18px] font-bold lg:w-36 lg:h-14 lg:text-xl lg:font-bold lg:hover:bg-gradient-to-r from-purple-500 to-pink-500 transition duration-[5s] ease-in-out">Get Ticket</button>
+      </div>
+    </div>
+<div class="flex justify-center">
+    <div class="carousel w-[335px] h-[200px] rounded-2xl lg:w-[82%] lg:h-[505px] lg:relative">
+  <div id="slide1" class="carousel-item relative w-full">
+    <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide4" class="btn btn-circle">❮</a> 
+      <a href="#slide2" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide2" class="carousel-item relative w-full">
+    <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide1" class="btn btn-circle">❮</a> 
+      <a href="#slide3" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide3" class="carousel-item relative w-full">
+    <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide2" class="btn btn-circle">❮</a> 
+      <a href="#slide4" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide4" class="carousel-item relative w-full">
+    <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide3" class="btn btn-circle">❮</a> 
+      <a href="#slide1" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+</div>
+</div>
+<div class="flex justify-center">
+<div class="w-[335px] h-[137px] bg-black p-4 rounded-xl mt-4 lg:w-[566px] lg:h-[165px] lg:p-8 lg:absolute lg:bottom-4 lg:right-36">
+  <h1 class="text-white text-lg font-extrabold lg:text-2xl">Meet all the heroes from the field</h1>
+  <p  class="text-[#FFFFFF99] text-sm font-medium pt-2 lg:text-base lg:pt-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+</div>
+</div>
+</header>
+</body>
+</html>

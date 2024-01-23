@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Manrope{
+    font-family: Manrope;
+}
+
+/* xsm-{min-width:"0"  max-width:"639"} [By Default]*/   
+/* sm-{min-width:"640"  max-width:"767"} */
+/* md-{min-width:"768"  max-width:"1023"} */
+/* lg-{min-width:"1024"} */
+
+
+/* In tailwind css by default media query apply for mobile ,min-width:"0"  max-width:"639"*/
+/* So you need to just set the lg value */
