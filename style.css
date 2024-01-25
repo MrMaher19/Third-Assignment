@@ -16,3 +16,10 @@
 
 /* In tailwind css by default media query apply for mobile ,min-width:"0"  max-width:"639"*/
 /* So you need to just set the lg value */
+
+
+.back{
+    background-image: url(2.png);
+    background-position: center;
+    background-size: cover;
+}
